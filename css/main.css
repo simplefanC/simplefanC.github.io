@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #c9d7a7;
+  background: #ff0e28;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2907,7 +2907,7 @@ hr {
 .footer-inner {
   text-align: center;
 }
-.post {
+.posts-expand .post {
   margin-top: 60px;
   margin-bottom: 60px;
   padding: 25px;
@@ -2921,4 +2921,8 @@ body {
 }
 .site-author-image {
   border-radius: 100%;
+}
+.posts-collapse .collection-title small {
+  color: #555;
+  font-size: 100%;
 }
