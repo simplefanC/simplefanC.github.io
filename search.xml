@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2019%2F04%2F24%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+    <title><![CDATA[Minimalist web design]]></title>
+    <url>%2F2019%2F04%2F26%2FMinimalist-web-design%2F</url>
+    <content type="text"><![CDATA[所谓”最简主义”设计，就是说网页上没有不相关的内容与装饰，美工基本就是白底黑字，尽量少用图片和复杂的排版，给人一种非常简单朴素的感觉。 至于我为什么喜欢”最简主义”，除了因为我喜欢简洁的东西以外，还因为我觉得将页面最简化，可以使访问者集中注意力，关注主要的内容。我认为，”最简主义”有利于节省访问者的时间，体现了对访问者的尊重，最终也有利于网站的成功。Google就是”最简主义”的一个典型，首页上就是只有一个长长的搜索框。 这也是我为什么在众多博客框架中选择了hexo，”A fast, simple &amp; powerful blog framework”. “ keep it simple” 这是我非常喜欢的一句话，最简主义”设计也将成为我今后一直坚持的理念。]]></content>
       <categories>
-        <category>Testing</category>
+        <category>web</category>
       </categories>
       <tags>
-        <tag>Testing</tag>
-        <tag>Another Tag</tag>
+        <tag>design</tag>
       </tags>
   </entry>
 </search>
