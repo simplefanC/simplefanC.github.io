@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[分布式架构概述（二）]]></title>
+    <url>%2F2019%2F04%2F26%2F%E5%88%86%E5%B8%83%E5%BC%8F%E6%9E%B6%E6%9E%84%E6%A6%82%E8%BF%B0%EF%BC%88%E4%BA%8C%EF%BC%89%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>分布式</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[分布式架构概述（一）]]></title>
+    <url>%2F2019%2F04%2F26%2F%E5%88%86%E5%B8%83%E5%BC%8F%E6%9E%B6%E6%9E%84%E6%A6%82%E8%BF%B0%EF%BC%88%E4%B8%80%EF%BC%89%2F</url>
+    <content type="text"><![CDATA[为什么分布式 高并发 海量数据 什么是分布式 任务分解 节点通信 分布式和集群的关系电商平台：用户、商品、订单、交易分布式：一个业务拆分成多个子系统，部署在不同的服务器上集群：同一个业务，部署在多个服务器上 计算机的发展历史 1946年 世界上第一台通用计算机ENIAC诞生于美国宾夕法尼亚大学。 1964年 IBM System/360 IBM公司推出的大型机。超强的计算能力、 高可靠性。带动软件架构往集中式发展，成为当时软件架构的主流 X86 CPU RISC CPU 小型机 分布式架构的发展原因 时机成熟了（PC机的性能不断提升） 企业必须要做“去ioe”：在阿里的IT架构中，去掉IBM的小型机、Oracle数据库、EMC存储设备;取而代之的是PC、mysql、mariadb，并于2013年5月17日，阿里最后一台IBM小型机在支付宝下线 单机计算机的架构 -&gt; 分布式计算机架构 输入设备 -&gt; 用户界面、消息 输出设备 -&gt; 用户展示终端、消息 存储器 -&gt; 数据库服务器、缓存服务器 运算器 -&gt; 义务逻辑 控制器 -&gt; 负载均衡服务器等]]></content>
+      <categories>
+        <category>分布式</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[Minimalist web design]]></title>
     <url>%2F2019%2F04%2F26%2FMinimalist-web-design%2F</url>
     <content type="text"><![CDATA[所谓“最简主义”设计，就是说网页上没有不相关的内容与装饰，美工基本就是白底黑字，尽量少用图片和复杂的排版，给人一种非常简单朴素的感觉。 至于我为什么喜欢“最简主义”，除了因为我喜欢简洁的东西以外，还因为我觉得将页面最简化，可以使访问者集中注意力，关注主要的内容。我认为，“最简主义”有利于节省访问者的时间，体现了对访问者的尊重，最终也有利于网站的成功。Google就是“最简主义”的一个典型，首页上就是只有一个长长的搜索框。 这也是我为什么在众多博客框架中选择了hexo，”A fast, simple &amp; powerful blog framework”. “keep it simple” 这是我非常喜欢的一句话，最简主义”设计也将成为我今后一直坚持的理念。]]></content>
