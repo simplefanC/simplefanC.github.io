@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[分布式架构概述（二）]]></title>
     <url>%2F2019%2F04%2F26%2F%E5%88%86%E5%B8%83%E5%BC%8F%E6%9E%B6%E6%9E%84%E6%A6%82%E8%BF%B0%EF%BC%88%E4%BA%8C%EF%BC%89%2F</url>
-    <content type="text"></content>
+    <content type="text"><![CDATA[架构的发展演变过程根据义务发展 什么是大型网站 访问量（tps、qps） 数据量（存储数据量） 电商平台的发展用户、商品、订单 容器：tomcat；jsp/servlet 数据库存储：mysql 网络层面的知识：tcp/udp 第一版 第二版 单击负载越来越高，数据库服务器和应用服务器分离 第三版 应用服务器做集群 问题： 1.session ​ 解决session跨域共享问题 ​ 我们知道cookie存储的是JSESSIONID；session以ConcurrentMap存储：key：JSESSIONID values：session session sticky session replication session 集中存储 存储在db、 存储在缓存服务器 （redis） cookie (主流) access_token(userid/token/timestamp) 2.如何做请求转发 第四版 数据库的高性能操作 问题： 1.数据库读写分离怎么操作 2.数据库的数据同步 3.数据库路由 mycat 第五版 电商平台最多的操作：搜索商品 问题： ​ 搜索引擎的索引数据怎么去做同步，实时增量同步？ 还是定时全量同步？ 第六版 解决访问量持续增高，引入缓存机制用户量是没有上限的 缓存、限流、降级 第七版 数据库的水平/垂直拆分 第八版]]></content>
       <categories>
         <category>分布式</category>
       </categories>
